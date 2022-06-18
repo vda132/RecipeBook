@@ -1,0 +1,14 @@
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DBLayer\bin\Debug\net6.0\DBLayer.deps.json
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DBLayer\bin\Debug\net6.0\DBLayer.dll
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DBLayer\bin\Debug\net6.0\DBLayer.pdb
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DBLayer\obj\Debug\net6.0\DBLayer.csproj.AssemblyReference.cache
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DBLayer\obj\Debug\net6.0\DBLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DBLayer\obj\Debug\net6.0\DBLayer.AssemblyInfoInputs.cache
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DBLayer\obj\Debug\net6.0\DBLayer.AssemblyInfo.cs
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DBLayer\obj\Debug\net6.0\DBLayer.csproj.CoreCompileInputs.cache
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DBLayer\obj\Debug\net6.0\DBLayer.dll
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DBLayer\obj\Debug\net6.0\refint\DBLayer.dll
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DBLayer\obj\Debug\net6.0\DBLayer.pdb
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DBLayer\obj\Debug\net6.0\ref\DBLayer.dll
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DBLayer\bin\Debug\net6.0\DBLayer.runtimeconfig.json
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DBLayer\obj\Debug\net6.0\DBLayer.genruntimeconfig.cache

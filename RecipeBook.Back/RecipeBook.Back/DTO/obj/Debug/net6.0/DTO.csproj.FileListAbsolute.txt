@@ -1,0 +1,12 @@
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DTO\bin\Debug\net6.0\DTO.deps.json
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DTO\bin\Debug\net6.0\DTO.dll
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DTO\bin\Debug\net6.0\DTO.pdb
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DTO\obj\Debug\net6.0\DTO.csproj.AssemblyReference.cache
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DTO\obj\Debug\net6.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DTO\obj\Debug\net6.0\DTO.AssemblyInfoInputs.cache
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DTO\obj\Debug\net6.0\DTO.AssemblyInfo.cs
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DTO\obj\Debug\net6.0\DTO.csproj.CoreCompileInputs.cache
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DTO\obj\Debug\net6.0\DTO.dll
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DTO\obj\Debug\net6.0\refint\DTO.dll
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DTO\obj\Debug\net6.0\DTO.pdb
+D:\RecipeBook\RecipeBook.Back\RecipeBook.Back\DTO\obj\Debug\net6.0\ref\DTO.dll
