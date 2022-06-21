@@ -65,8 +65,8 @@ function Register() {
                 })
                 
                 const userData = await userResponse.json();
-                console.log(userData);
-                auth.setUser(userData);
+                console.log(JSON.stringify(userData));
+                auth.setUser(JSON.stringify(userData));
                 auth.setIsLoaded(true);
                 localStorage.setItem("user", JSON.stringify(userData));
                 navigate(`/`);
