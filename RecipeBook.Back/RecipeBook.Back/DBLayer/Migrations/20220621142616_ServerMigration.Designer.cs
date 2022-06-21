@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DBLayer.Migrations
 {
     [DbContext(typeof(RecipeBookContext))]
-    [Migration("20220618193853_fix id")]
-    partial class fixid
+    [Migration("20220621142616_ServerMigration")]
+    partial class ServerMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

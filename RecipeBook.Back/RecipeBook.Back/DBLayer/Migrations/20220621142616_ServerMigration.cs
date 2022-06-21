@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DBLayer.Migrations
 {
-    public partial class fixid : Migration
+    public partial class ServerMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

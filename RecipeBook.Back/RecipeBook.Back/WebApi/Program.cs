@@ -9,13 +9,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<RecipeBookContext>(options => options.UseSqlServer(
-    builder.Configuration.GetConnectionString("DefaultConnectionVadim")));
+    builder.Configuration.GetConnectionString("DefaultConnectionVadim"), b => b.MigrationsAssembly("DBLayer")));
 
 builder.Services.AddScoped<IUserProvider, UserProvider>();
 builder.Services.AddScoped<IRecipeProvider, RecipeProvider>();
-
-
-
 
 var app = builder.Build();
 

@@ -8,15 +8,6 @@ public class RecipeBookContext : DbContext
 {
     private readonly string connectionString = string.Empty;
 
-    public RecipeBookContext() : base()
-    {
-        var config = new ConfigurationBuilder()
-            .AddJsonFile("D:\\RecipeBook\\RecipeBook.Back\\RecipeBook.Back\\WebApi\\appsettings.json")
-            .Build();
-
-        this.connectionString = config["ConnectionStrings:DefaultConnectionVadim"];
-    }
-
     public RecipeBookContext(DbContextOptions<RecipeBookContext> options) : base(options) 
     {
         Database.EnsureCreated();
