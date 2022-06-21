@@ -1,13 +1,10 @@
 ﻿using DBLayer.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 
 namespace DBLayer.Context;
 
 public class RecipeBookContext : DbContext
 {
-    private readonly string connectionString = string.Empty;
-
     public RecipeBookContext(DbContextOptions<RecipeBookContext> options) : base(options) 
     {
         Database.EnsureCreated();

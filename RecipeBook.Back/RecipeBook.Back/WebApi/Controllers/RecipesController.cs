@@ -34,8 +34,7 @@ public class RecipesController : ControllerBase
             Description = recipe.Description,
             Image = recipe.Image,
             RecipeName = recipe.RecipeName,
-            UserId = recipe.UserId,
-            UserName = user!.Name
+            UserId = recipe.UserId
         };
 
         return new JsonResult(RecipeDTO);
@@ -51,7 +50,7 @@ public class RecipesController : ControllerBase
             return new ResultDTO
             {
                 Status = 500,
-                Message = "Fields should be filled"
+                Message = "Заполните поля"
             };
 
         var recipes = (await this.recipeProvider.GetAllAsyns()).ToList();
@@ -60,7 +59,7 @@ public class RecipesController : ControllerBase
             return new ResultDTO
             {
                 Status = 500,
-                Message = "Current image`s already exist"
+                Message = "Такая картинка уже есть"
             };
 
         var model = new Recipe

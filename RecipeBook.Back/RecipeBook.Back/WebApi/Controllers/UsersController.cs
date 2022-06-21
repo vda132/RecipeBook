@@ -30,7 +30,7 @@ namespace WebApi.Controllers
                 return new ResultDTO
                 {
                     Status = 500,
-                    Message = "Fields should be filled"
+                    Message = "Заполните поля"
                 };
 
             var users = (await this.userProvider.GetAllAsyns()).ToList();
@@ -40,7 +40,7 @@ namespace WebApi.Controllers
                 return new ResultDTO
                 {
                     Status = 500,
-                    Message = "Current user`s already exist"
+                    Message = "Такой пользователь уже существует"
                 };
 
             var user = new User
@@ -68,7 +68,7 @@ namespace WebApi.Controllers
                 return new ResultDTO
                 {
                     Status = 500,
-                    Message = "Fields should be filled"
+                    Message = "Заполните поля"
                 };
 
             var users = (await this.userProvider.GetAllAsyns()).ToList();
@@ -77,14 +77,14 @@ namespace WebApi.Controllers
                 return new ResultDTO
                 {
                     Status = 500,
-                    Message = "Current user`s already exist"
+                    Message = "Такой пользователь уже существует"
                 };
 
             if(!(await this.userProvider.UpdateAsync(model, id)))
                 return new ResultDTO
                 {
                     Status = 500,
-                    Message = "Wrong data"
+                    Message = "Что-то пошло не так"
                 };
 
             return new ResultDTO
@@ -104,7 +104,7 @@ namespace WebApi.Controllers
             } : new ResultDTO
             {
                 Status = 500,
-                Message = "Wrong data"
+                Message = "Что-то пошло не так"
             };
         }
 
@@ -118,6 +118,7 @@ namespace WebApi.Controllers
             if (user is not null)
                 return new AuthorizedUserDTO
                 {
+                    Id = user.Id,
                     Name = user.Name,
                     Login = user.Login,
                     Status = 200
@@ -125,7 +126,7 @@ namespace WebApi.Controllers
 
             return new AuthorizedUserDTO
             {
-                Name = "",
+                Name = "Такого пользователя не существует",
                 Login = "",
                 Status = 500
             }; 

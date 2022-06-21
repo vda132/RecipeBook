@@ -17,7 +17,14 @@ public class RecipeProvider : IRecipeProvider
         model.Id = id;
 
         await recipeBookContext.AddAsync(model);
-        await recipeBookContext.SaveChangesAsync();
+        try
+        {
+            await recipeBookContext.SaveChangesAsync();
+        }
+        catch 
+        { 
+            
+        }
 
         return id;
     }
